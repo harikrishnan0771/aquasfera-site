@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AquasFera | Our Products</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&family=Noto+Sans+Malayalam:wght@400;600;700&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav id="navbar" class="scrolled">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="assets/logo.jpg" alt="AquasFera Logo" class="nav-logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html" style="color:var(--primary-blue);">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </nav>
+
+    <div style="padding-top: 100px;"></div>
+
+    <section class="products section">
+        <div class="container reveal active">
+            <div class="section-title">
+                <h2>Our Premium Range</h2>
+                <p>Choose the right size for your hydration needs.</p>
+            </div>
+            
+            <div class="product-grid">
+                <!-- Half Litre -->
+                <div class="product-card">
+                    <div class="card-image">
+                        <img src="assets/bottle-500ml.png" alt="500ml Water Bottle">
+                        <div class="card-backdrop"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Half Litre Bottle</h3>
+                        <span class="size-badge">500 ML</span>
+                        <p>Perfect for on-the-go hydration. Easy to carry and profoundly refreshing.</p>
+                    </div>
+                </div>
+
+                <!-- 1 Litre -->
+                <div class="product-card featured">
+                    <div class="card-badge">Most Popular</div>
+                    <div class="card-image">
+                        <img src="assets/bottle-1l.png" alt="1 Litre Water Bottle">
+                        <div class="card-backdrop"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>One Litre Bottle</h3>
+                        <span class="size-badge">1000 ML</span>
+                        <p>Your ideal daily companion for work, gym, or the dining table.</p>
+                    </div>
+                </div>
+
+                <!-- 20 Litre Can -->
+                <div class="product-card">
+                    <div class="card-image">
+                        <img src="assets/bottle-20l.png" alt="20 Litre Water Can">
+                        <div class="card-backdrop"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Family Pack Can</h3>
+                        <span class="size-badge">20 Litre</span>
+                        <p>Designed for households and offices, ensuring a constant supply of pure water.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" style="padding-top: 4rem;">
+        <div class="copyright">
+            <p>&copy; 2026 Narakkode Aqua Pvt.Ltd. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
